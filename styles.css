@@ -1,0 +1,41 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  background-color: rgb(28, 99, 150);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+.display {
+  font-size: 2em;
+  color: black;
+  background-color: aliceblue;
+  padding: 30px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: lavender;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
